@@ -72,14 +72,14 @@ import './index.css';
             {this.renderSquare(2)}
           </div>
           <div className="board-row">
+            {this.renderSquare(3)}
             {this.renderSquare(4)}
             {this.renderSquare(5)}
-            {this.renderSquare(6)}
           </div>
           <div className="board-row">
+            {this.renderSquare(6)}
             {this.renderSquare(7)}
             {this.renderSquare(8)}
-            {this.renderSquare(9)}
           </div>
         </div>
       );
